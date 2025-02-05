@@ -66,6 +66,15 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 </style>
+
+<style>
+    /* 모든 요소와 ::before, ::after에 대해 폰트를 강제 적용 */
+    *,
+    *::before,
+    *::after {
+      font-family: "Your Custom Font", sans-serif !important;
+    }
+  </style>
     <link rel="preconnect" href="https://fonts.bunny.net"><link rel="stylesheet" href="https://fonts.bunny.net/css?family=noto-sans:400,700"><style>:root {--gh-font-heading: 'Noto Sans KR';--gh-font-body: 'Noto Sans KR';}</style>
 </head>
 
@@ -104,7 +113,7 @@
 <main class="site-main gh-inner">
 
     <div class="post-feed gh-feed">
-            <article class="post tag-news u-shadow">
+            <article class="post u-shadow">
 <a class="post-link" href="post_20250119/index.html">
         <figure class="post-media">
             <div class="u-placeholder same-height rectangle">
@@ -125,7 +134,6 @@
 
     <div class="post-wrapper">
         <header class="post-header">
-                <span class="post-tag">News</span>
 
             <h2 class="post-title">
                 벤처기업 복수의결권, 실제 활용은 어떨까?
